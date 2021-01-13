@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;400;500;600;700;800&display=swap');
+
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Barlow Semi Condensed, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    background-image: url("images/amanda-vick-zw_oaDbfzyE-unsplash.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+header, .left-section, .right-section{
+    height: 100vh;
+}
+
+.left-section, .right-section{
+    width: 50%;
+}
+
+.left-section{
+    text-align: center;
+}
+
+.right-section{
+    position: relative;
+}
+
+.brand{
+    width: 20rem;
+    position: relative;
+    top: 4.5rem;
+}
+
+.container{
+    padding: 3rem;
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); 
+    box-shadow: -1px 0px 15px -3px #000000;
+}
+
+h1, p{
+    color: #474747;
+    letter-spacing: 1px;
+}
+
+h1{
+    margin: 0 0 2rem;
+    font-size: 2rem;
+}
+
+p, span{
+    font-size: 0.8rem;
+    margin: 0 0 2rem;
+    letter-spacing: normal;
+}
+
+input{
+    border: none;
+    margin: 0 0 1rem;
+    background-color: transparent;
+}
+
+input::placeholder{
+    font-size: 0.8rem;
+    font-family: Barlow Semi Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(190, 191, 193, 0.99);
+}
+
+hr{
+    border-width: 1px;
+    background-color:  rgba(190, 191, 193, 0.99);
+    box-shadow: none;
+}
+
+.checkbox-container{
+    margin: 1rem 0 1.5rem;
+}
+
+.checkbox{
+    width: 0.7rem;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.forgot-password{
+    margin-left: 18rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(190, 191, 193, 0.99);
+    transition: 0.2s ease-in-out all;
+}
+
+a:hover{
+    color: #474747;
+}
+
+.signin-button{
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    background-color: #03ACD3;
+    color: white;
+}
+
+.signin-button:hover{
+    background-color: #017F8B;
+    color: white;
+}
+
+img{
+    width: 1.5rem;
+    padding: 0.5rem;
+}
+
+.socials-container{
+    text-align: center;
+    margin-top: 2rem;
+}
